@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#440000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="278dp"
+        android:layout_height="322dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/l" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="289dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="45dp"
+        android:text="Welcome to Zazu – your ultimate birdwatching companion! Explore the wonders of birding, track sightings, and connect with a community of fellow nature lovers. Whether you're a beginner or an experienced birder, Zazu is designed to enrich every moment of your birding journey. Let's take flight together!"
+        android:textAllCaps="false"
+        android:textColor="#FED500"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/nextp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="41dp"
+        android:text="Start "
+        android:textAllCaps="true"
+        android:textColor="#FED500"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

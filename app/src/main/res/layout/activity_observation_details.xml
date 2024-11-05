@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#440000"
+    tools:context=".ObservationDetails">
+
+    <!-- Observation ID Heading -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/detailImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/circular_background"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.497"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:srcCompat="@tools:sample/avatars" />
+
+
+
+    <TextView
+        android:id="@+id/headingObservationId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observation ID"
+        android:textColor="#FED500"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detailImage" />
+
+    <!-- Observation ID Data -->
+    <TextView
+        android:id="@+id/detailObservationId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/oval_border"
+        android:textColor="#FED500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headingObservationId"
+        tools:text="12345" />
+
+    <!-- Species Name Heading -->
+    <TextView
+        android:id="@+id/headingSpeciesName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Species Name"
+        android:textColor="#FED500"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detailObservationId" />
+
+    <!-- Species Name Data -->
+    <TextView
+        android:id="@+id/detailSpeciesName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/oval_border"
+        android:textColor="#FED500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headingSpeciesName"
+        tools:text="Lion" />
+
+    <!-- Observation Date Heading -->
+    <TextView
+        android:id="@+id/headingObservationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observation Date"
+        android:textColor="#FED500"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detailSpeciesName" />
+
+    <!-- Observation Date Data -->
+    <TextView
+        android:id="@+id/detailObservationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/oval_border"
+        android:textColor="#FED500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headingObservationDate"
+        tools:text="2024-09-30" />
+
+    <!-- Location Heading -->
+    <TextView
+        android:id="@+id/headingLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="#FED500"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detailObservationDate" />
+
+    <!-- Location Data -->
+    <TextView
+        android:id="@+id/detailLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/oval_border"
+        android:textColor="#FED500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headingLocation"
+        tools:text="Kruger National Park" />
+
+    <!-- Notes Heading -->
+    <TextView
+        android:id="@+id/headingNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textColor="#FED500"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detailLocation" />
+
+    <!-- Notes Data -->
+    <TextView
+        android:id="@+id/detailNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/oval_border"
+        android:textColor="#FED500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headingNotes"
+        tools:text="Sighted near a waterhole" />
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="49dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="327dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="643dp"
+        android:src="@drawable/e"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

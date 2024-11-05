@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "207856064421",
+    "project_id": "zazu-5475d",
+    "storage_bucket": "zazu-5475d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207856064421:android:42a96b16a7df5b7da7ba4c",
+        "android_client_info": {
+          "package_name": "com.example.za"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG61oEhrMo7Y6hl7ycxEuaUVtAWaZ2_dE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207856064421:android:5a7e1ec1e46a488fa7ba4c",
+        "android_client_info": {
+          "package_name": "com.example.zazu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG61oEhrMo7Y6hl7ycxEuaUVtAWaZ2_dE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#440000"
+    tools:context=".Settings">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="217dp"
+        android:text="Switch to Miles"
+        android:textColor="#FED500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/max"
+        android:layout_width="307dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:hint="Maximum Distance willing to travel"
+        android:inputType="text"
+        android:textColor="#FED500"
+        android:textColorHint="#FED500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <Button
+        android:id="@+id/saveSettingsbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="224dp"
+        android:backgroundTint="#FED500"
+        android:text="Save"
+        android:textAllCaps="true"
+        android:textColor="#100F0A"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/max" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="157dp"
+        android:text="Settings"
+        android:textAllCaps="true"
+        android:textColor="#FED500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/hom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="72dp"
+        android:src="@drawable/h"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saveSettingsbtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/p"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="73dp"
+        android:src="@drawable/p"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/added"
+        app:layout_constraintStart_toEndOf="@+id/hom"
+        app:layout_constraintTop_toBottomOf="@+id/saveSettingsbtn" />
+
+    <ImageView
+        android:id="@+id/added"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="73dp"
+        android:src="@drawable/a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/p"
+        app:layout_constraintTop_toBottomOf="@+id/saveSettingsbtn" />
+
+    <ImageView
+        android:id="@+id/vie"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="72dp"
+        android:src="@drawable/v"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/added"
+        app:layout_constraintTop_toBottomOf="@+id/saveSettingsbtn"
+        app:layout_constraintVertical_bias="0.987" />
+</androidx.constraintlayout.widget.ConstraintLayout>

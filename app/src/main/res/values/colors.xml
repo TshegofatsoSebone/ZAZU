@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#440000</color> <!-- Example primary color -->
+    <color name="colorPrimaryDark">#000000</color> <!-- Darker variant for light mode -->
+    <color name="colorPrimaryVariantDark">#000000</color> <!-- A variant color for dark mode -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Text color on primary -->
+    <color name="colorOnPrimaryDark">#000000</color> <!-- Text color on primary in dark mode -->
+</resources>
+
